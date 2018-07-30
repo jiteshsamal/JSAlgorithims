@@ -1,12 +1,11 @@
-function returnLongestWord(str){
-	var largest='';
-	var existArray=str.split(' ');
-	for(var i=0;i<existArray.length;i++){
-  	if(existArray[i].length>largest.length){
-    	largest=existArray[i];
+function Longestword(str){
+var arr=str.split(' ');
+var longString='';
+
+for(var i=0;i<arr.length;i++){
+		if(longString.length < arr[i].length){
+    	longString=arr[i];
     }
-		//outArray.push(existArray[i].charAt(0).toUpperCase() + existArray[i].slice(1))
-	}
-  return largest;
 }
-console.log(returnLongestWord('the quick brown fox jumps then quickly blow air'));
+	return longString;
+}
