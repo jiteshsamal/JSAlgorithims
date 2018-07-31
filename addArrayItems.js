@@ -3,7 +3,7 @@ var sum=0
 	if(arr.length==1)
   	return arr[0]
     else
-    sum= arr.pop() + assArrayItems(arr)
+    sum= arr.pop() + addArrayItems(arr)
     return sum;
 }
 
