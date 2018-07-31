@@ -11,4 +11,3 @@ function combinator (s) {
 
  console.log(combinator('dog'));
  
- <FTB:FreeTextBox ID="FreeTextBox1" ToolbarStyleConfiguration="NotSet" TabIndex="2" ToolbarBackgroundImage="false" GutterBackColor="WhiteSmoke" BackColor="WhiteSmoke" Width="630" ToolbarLayout="paragraphmenu,fontfacesmenu,fontsizesmenu,fontforecolorsmenu,bold,italic,underline|bulletedlist,numberedlist;createlink,unlink,removeformat|cut,copy,paste,delete,undo,redo,print|justifyleft,justifyright,justifycenter,justifyfull,indent,outdent|iespellcheck,insertrule,insertdate,symbolsmenu" runat="Server" />
